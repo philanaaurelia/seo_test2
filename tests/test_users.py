@@ -1,6 +1,6 @@
 import unittest, sys, os
 
-sys.path.append('..') # imports python file from parent directory
+sys.path.append('../seo_test2') # imports python file from parent directory
 from app import app, db
 
 class UsersTests(unittest.TestCase):
